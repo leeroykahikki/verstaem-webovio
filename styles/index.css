@@ -3,6 +3,8 @@ html {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+
+  color: #fff;
 }
 
 .container {
@@ -30,8 +32,38 @@ html {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+
+  margin-bottom: 121px;
 }
 
 .info-menu {
   cursor: pointer;
+}
+
+.info-description_sm {
+  font-size: 14px;
+}
+
+.info-description_lg {
+  font-size: 60px;
+  font-weight: 700;
+
+  margin: 23px 0;
+}
+
+.info-button {
+  margin-top: 45px;
+}
+
+.info-button i {
+  font-size: 16;
+  font-weight: 700;
+
+  color: #ffd723;
+}
+
+.info-button a {
+  font-weight: 700;
+
+  color: #ffd723;
 }
