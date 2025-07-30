@@ -60,6 +60,10 @@ INFO BLOCK START
   font-size: 14px;
 }
 
+.info-description_md {
+  line-height: 26px;
+}
+
 .info-description_lg {
   font-size: 60px;
   font-weight: 700;
