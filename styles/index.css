@@ -21,6 +21,17 @@ html {
   margin: auto;
 }
 
+.block-separator {
+  display: block;
+
+  width: 1110px;
+  height: 1px;
+
+  background-color: rgb(13%, 22%, 26%, 0.1);
+
+  margin: 150px auto;
+}
+
 .info {
   height: 811px;
 
