@@ -253,3 +253,176 @@ STRATEGY BLOCK START
 /*
 STRATEGY BLOCK END
 */
+
+/*
+PROJECTS BLOCK START
+*/
+
+.projects-outer {
+  background-color: #fff;
+}
+
+.projects-info {
+  margin-bottom: 100px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.projects-info-title {
+  color: #4d533c;
+  font-size: 36px;
+  font-weight: 700;
+
+  margin-right: 133px;
+}
+
+.projects-info-subtitle {
+  color: rgb(13%, 22%, 26%, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-bottom: 150px;
+}
+
+.projects-image {
+  position: relative;
+
+  width: 750px;
+  height: 500px;
+
+  margin-right: 100px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-description-title {
+  color: #4d533c;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+
+  margin-bottom: 24px;
+}
+
+.projects-description-subtitle {
+  color: rgb(13%, 22%, 26%, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+
+  margin-bottom: 90px;
+}
+
+.projects-description-button i {
+  color: #d4d6d4;
+}
+
+.projects-description-button a {
+  color: #d4d6d4;
+}
+
+.projects-description-button:hover i {
+  color: #ffd723;
+}
+
+.projects-description-button:hover a {
+  color: #ffd723;
+}
+
+.projects-comment {
+  position: absolute;
+  bottom: -65px;
+  right: -40px;
+  z-index: 1;
+
+  width: 453px;
+  height: 243px;
+
+  border-radius: 8px;
+
+  background-color: #fff;
+
+  -webkit-box-shadow: 50px 0px 100px 0px rgba(34, 60, 80, 0.15);
+  -moz-box-shadow: 50px 0px 100px 0px rgba(34, 60, 80, 0.15);
+  box-shadow: 50px 0px 100px 0px rgba(34, 60, 80, 0.15);
+}
+
+.projects-comment-inner {
+  display: flex;
+  flex-direction: column;
+
+  margin: 30px 0 0 30px;
+}
+
+.projects-comment-text {
+  color: #4d533c;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 26px;
+
+  margin-bottom: 24px;
+}
+
+.projects-comment-author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projects-comment-author img {
+  width: 46px;
+  height: 46px;
+
+  border-radius: 50%;
+
+  margin-right: 14px;
+}
+
+.projects-comment-author-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-comment-author-title {
+  color: #4d533c;
+  font-size: 16px;
+  font-weight: 700;
+
+  margin-bottom: 4px;
+}
+
+.projects-comment-author-subtitle {
+  color: #152934;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.projects-container .right {
+  justify-content: flex-end;
+
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.projects-image .right {
+  margin: 0;
+}
+
+/*
+PROJECTS BLOCK END
+*/
