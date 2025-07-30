@@ -32,6 +32,10 @@ html {
   margin: 150px auto;
 }
 
+/*
+INFO BLOCK START
+*/
+
 .info {
   height: 811px;
 
@@ -84,6 +88,14 @@ html {
   position: relative;
 }
 
+/*
+INFO BLOCK END
+*/
+
+/*
+PARTNERS BLOCK START
+*/
+
 .partners {
   position: absolute;
   right: 0;
@@ -108,3 +120,132 @@ html {
 
   margin: 60px 166px 0 60px;
 }
+
+/*
+PARTNERS BLOCK END
+*/
+
+/*
+STRATEGY BLOCK START
+*/
+
+.strategy-outer {
+  background-color: #fff;
+}
+
+.strategy-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.strategy-description {
+  margin-top: 244px;
+}
+
+.strategy-description_sm {
+  color: rgba(77, 83, 60, 0.9);
+  font-size: 14px;
+  font-weight: 400;
+
+  margin-bottom: 29px;
+}
+
+.strategy-description_md {
+  color: rgba(33, 56, 66, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+
+  margin-bottom: 42px;
+}
+
+.strategy-description_lg {
+  color: #4d533c;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+
+  margin-bottom: 35px;
+}
+
+.strategy-description_lg span {
+  background-color: rgba(255, 215, 35, 0.1);
+}
+
+.strategy-description-button i {
+  color: #d4d6d4;
+}
+
+.strategy-description-button a {
+  color: #d4d6d4;
+}
+
+.strategy-description-button:hover i {
+  color: #ffd723;
+}
+
+.strategy-description-button:hover a {
+  color: #ffd723;
+}
+
+.strategy-ceo {
+  width: 474px;
+  height: 644px;
+
+  -webkit-box-shadow: 50px 0px 100px 0px rgba(34, 60, 80, 0.15);
+  -moz-box-shadow: 50px 0px 100px 0px rgba(34, 60, 80, 0.15);
+  box-shadow: 50px 0px 100px 0px rgba(34, 60, 80, 0.15);
+}
+
+.strategy-ceo-container {
+  margin: 244px 0 0 40px;
+}
+
+.strategy-ceo-description {
+  color: #4d533c;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 40px;
+
+  margin-bottom: 50px;
+}
+
+.strategy-ceo-author {
+  display: flex;
+  flex-direction: row;
+}
+
+.strategy-ceo-author img {
+  width: 90px;
+  height: 90px;
+
+  border-radius: 50%;
+
+  margin-right: 30px;
+}
+
+.strategy-ceo-author-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.strategy-ceo-author-title {
+  color: #4d533c;
+  font-size: 22px;
+  font-weight: 700;
+
+  margin-bottom: 6px;
+}
+
+.strategy-ceo-author-subtitle {
+  color: #152934;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*
+STRATEGY BLOCK END
+*/
